@@ -984,6 +984,7 @@ line-height: 25px;
   
 
   position: sticky;
+  top: 98%;
   z-index: 1;
   bottom: 0%;
   
