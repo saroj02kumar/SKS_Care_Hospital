@@ -983,7 +983,7 @@ line-height: 25px;
   width: 100%;
   position: absolute;
 
-  position: static;
+  position: sticky;
   z-index: 0;
   bottom: 0%;
   top: 95%;
