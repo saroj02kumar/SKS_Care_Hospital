@@ -977,23 +977,23 @@ line-height: 25px;
   .header-right-mob {
     display: block;
 
-    padding: 10px 0px 10px 18px;
+    padding: 1px 0px 3px 30px;
   background-color: #fa0505;
   height: fit-content;
   width: 100%;
   
 
   position: sticky;
-  top: 98%;
+  bottom: 4%;
   z-index: 1;
-  bottom: 0%;
+  
   
   opacity: 0.7;
     
   }
   .header-right-mob i{
     font-size: 16px;
-    padding: 2% 0% 0% 0%;
+    padding: 1% 0% 0% 0%;
     opacity: 1;
 
     
@@ -1003,7 +1003,7 @@ line-height: 25px;
     .header-right-mob a{
       text-decoration: none;
       font-size: 16px;
-      padding: 2% 3%  0% 0%;
+      padding: 1% 3%  0% 0%;
       color: rgb(249, 247, 247);
       font-weight: bold;
       margin-right: 1%;
