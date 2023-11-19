@@ -979,10 +979,11 @@ line-height: 25px;
 
     padding-left: 12px;
   background-color: #fa0505;
-  height: 5%;
+  height: 8%;
   width: 100%;
   position: absolute;
-  
+  justify-content: center;
+  align-items: center;
   position: fixed;
   z-index: 1;
   bottom: 0;
