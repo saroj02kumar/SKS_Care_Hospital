@@ -977,7 +977,7 @@ line-height: 25px;
   .header-right-mob {
     display: block;
 
-    padding-left: 12px;
+    padding-left: 20px;
   background-color: #fa0505;
   height: 8%;
   width: 100%;
@@ -1395,7 +1395,7 @@ line-height: 25px;
       
     
     }
-
+/* page2 */
 .about{
   width: 100%;
   height: auto;
@@ -1480,7 +1480,7 @@ text-align: center;
   .tpa img{
     width: 220px;
     height: 130px;
-    mix-blend-mode: darken;
+    
     border:2px solid black ;
     border-radius: 20px;
   
