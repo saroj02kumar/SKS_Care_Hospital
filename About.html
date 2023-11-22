@@ -138,16 +138,16 @@
           <!--radio buttons end-->
           <!--slide images start-->
           <div class="slide first">
-            <img src="./hospital/about-banner.webp" alt="">
+            <img src="./hospital/About-banner2.jpg" alt="">
           </div>
           <div class="slide">
             <img src="./hospital/About-banner1.png" alt="">
           </div>
           <div class="slide">
-            <img src="./hospital/About-banner2.jpg" alt="">
+            <img src="./hospital/about-banner.webp" alt="">
           </div>
           <div class="slide">
-            <img src="./hospital/appointment.jpg" alt="">
+            <img src="./hospital/about-banner3.jpg" alt="">
           </div>
           <!--slide images end-->
           <!--automatic navigation start-->
@@ -570,5 +570,17 @@
       <a href="">Get Checkup</a>
     </div>
     <script type="text/javascript" src="Hospital.js"></script>
+
+    <script type="text/javascript">
+
+var counter = 1;
+setInterval(function(){
+  document.getElementById('radio' + counter).checked = true;
+  counter++;
+  if(counter > 4){
+    counter = 1;
+  }
+}, 5000);
+    </script>
   </body>
 </html>
