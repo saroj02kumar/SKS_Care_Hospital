@@ -1385,14 +1385,7 @@ line-height: 25px;
   
 
 
-.bubbles{
-    
-  display: none;
-  
-}
-.bubbles span{
-  display: none;
-}
+
 
    .footer2{
       background-color: rgb(63, 133, 162);
@@ -1887,6 +1880,62 @@ animation-duration: calc(125s/ var(--i));
 #radio4:checked ~ .navigation-auto .auto-btn4{
   background: #111818;
 }
+
+
+
+.container{
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: rgb(31, 29, 29);
+  z-index: 8;
+}
+
+.bubbles{
+  position: relative;
+  display: flex;
+  z-index: -100;
+  
+}
+
+.bubbles span{
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background-color: #4fc3dc;
+  margin: 0.4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #4fc3dc44, 
+  0 0 15px #4fc3dc, 
+  0 0 20px #4fc3dc;
+animation: bubbles 15s linear infinite;
+animation-duration: calc(250s/ var(--i));
+
+}
+
+.bubbles span:nth-child(even){
+  background-color: #ff2d75;
+  box-shadow: 0 0 0 1px #ff2d7544, 
+  0 0 5px #ff2d75, 
+  0 0 10px #ff2d75;
+}
+
+@keyframes bubbles {
+  0%{
+      transform: translateY(550vh) scale(0.3);
+  }
+
+  100%{
+      transform: translateY(-10vh) scale(1);
+  }
+  
+}
+
+
+
+
+
 
 
 
