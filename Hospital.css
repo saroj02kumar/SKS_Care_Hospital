@@ -1301,7 +1301,7 @@ line-height: 25px;
       font-size: 15px;
       box-shadow: 2px 2px rgb(19, 3, 70);
       cursor: pointer;
-      margin-left: 30%;
+      margin-left: 40%;
     }
 
     .buttonx{
@@ -1315,7 +1315,7 @@ line-height: 25px;
       font-size: 15px;
       box-shadow: none;
       cursor: pointer;
-      margin-left: 30%;
+      margin-left: 40%;
     }
 
     
@@ -1326,7 +1326,7 @@ line-height: 25px;
   width: fit-content;
   display: none;
   
-  padding-left: 12%;
+  padding-left: 10%;
 }
 
 .bookedx{
@@ -1335,7 +1335,7 @@ line-height: 25px;
   width: fit-content;
   display: block;
   
-  padding-left: 12%;
+  padding-left: 10%;
 }
 
     
